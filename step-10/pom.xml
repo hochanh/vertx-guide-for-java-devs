@@ -132,9 +132,7 @@
               <annotationProcessor>io.vertx.codegen.CodeGenProcessor</annotationProcessor>
             </annotationProcessors>
             <generatedSourcesDirectory>${project.basedir}/src/main/generated</generatedSourcesDirectory>
-            <compilerArgs>
-              <arg>-AoutputDirectory=${project.basedir}/src/main</arg>
-            </compilerArgs>
+            <outputDirectory>${project.basedir}/src/main</outputDirectory>
 
           </configuration>
         </plugin>
